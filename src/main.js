@@ -3,10 +3,16 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import VueResource from 'vue-resource'
 import store from './store'
+import VueResource from 'vue-resource'
 import weui from 'weui'
+import wx from 'weixin-js-sdk'
+import $ from 'jquery'
+import './assets/css/bootstrap.css'
+import './assets/js/bootstrap'
 import 'normalize.css'
+
+
 
 Vue.use(VueResource)
 Vue.config.productionTip = false
