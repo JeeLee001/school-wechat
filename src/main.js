@@ -13,7 +13,6 @@ import './assets/js/bootstrap'
 import 'normalize.css'
 
 
-
 Vue.use(VueResource)
 Vue.config.productionTip = false
 

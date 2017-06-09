@@ -7,6 +7,9 @@ import HomeView from '../views/HomeView'
 import TeacherView from '../views/TeacherView'
 import ChildView from '../views/ChildView'
 import TeachView from '../views/TeachView'
+import DietView from '../views/DietView'
+import GrowView from '../views/GrowView'
+import MedicineView from '../views/MedicineView'
 
 Vue.use(Router)
 
@@ -48,6 +51,21 @@ export default new Router({
           path: 'teach',
           name: 'TeachView',
           component: TeachView
+        },
+        {
+          path: 'diet',
+          name: 'DietView',
+          component: DietView
+        },
+        {
+          path: 'grow',
+          name: 'GrowView',
+          component: GrowView
+        },
+        {
+          path: 'medicine',
+          name: 'MedicineView',
+          component: MedicineView
         }
       ]
     },

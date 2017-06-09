@@ -1,7 +1,7 @@
 <template>
   <div class="home-view">
     <div class="title">
-      <span>本周班次登记</span>
+      <span>生长发育情况登记表</span>
       <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary">编辑</a>
     </div>
     <div class="table-margin">
